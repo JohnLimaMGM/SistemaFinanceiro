@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -237,7 +238,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="imagens\logo.jpg" />
+    <Content Include="imagens\img3.png" />
+    <Content Include="imagens\img4.jpg" />
     <Content Include="Js\alertify.js" />
     <Content Include="Js\alertify.min.js" />
     <Content Include="Js\Categoria.js" />

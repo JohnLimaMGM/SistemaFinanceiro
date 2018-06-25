@@ -10,7 +10,7 @@ namespace Model.Dao
         private ConexaoDB()
         {
             // CONEXAO LOCAL  
-            con = new SqlConnection("Data Source=HUGO-PC\\HUGO; Initial Catalog=financeiro; Integrated Security=True");
+            con = new SqlConnection("Data Source=192.168.0.244;Initial Catalog=estoque;User ID=sa; Password=135689;");
 
             //CONEXAO NO SERVIDOR
             //con = new SqlConnection("Data Source=LojaSistema.mssql.somee.com;packet size=4096;user id=hugofreitas_SQLLogin_1;pwd=yuebkwt67d;persist security info=False;initial catalog=financeiro");

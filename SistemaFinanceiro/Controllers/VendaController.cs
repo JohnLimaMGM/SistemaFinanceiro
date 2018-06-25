@@ -118,7 +118,7 @@ namespace SistemaFinanceiro.Controllers
                 string dadosVenda = objVendaNeg.create(objVenda);
                 if (dadosVenda == "" || dadosVenda == null)
                 {
-                    mensagem = "Algum campo da tabela de vendas está nulo, vazio ou com dados incorretos!";
+                    mensagem = "Algum campo da tabela de vendas está nulo, vazio ou com dados incorretos!!!";
                 }
                 else
                 {
